@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.SplashScreen">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logoday"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/noted_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/skyBlue"
+        android:fontFamily="@font/txtbold"
+        android:textSize="40sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/logo"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/dont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Remember"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/skyBlue"
+        android:fontFamily="@font/txtitalic"
+        android:layout_below="@id/noted_title"/>
+
+    <TextView
+        android:id="@+id/worry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't worry"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/skyBlue"
+        android:fontFamily="@font/txtitalic"
+        android:layout_below="@id/dont"/>
+    <TextView
+        android:id="@+id/just"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Just Not'ed"
+        android:textSize="18sp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/skyBlue"
+        android:fontFamily="@font/txtitalic"
+        android:layout_below="@id/worry"/>
+
+    <TextView
+        android:id="@+id/noted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Rights Reserved."
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/txtbold"
+        android:textColor="@color/skyBlue"/>
+
+
+
+</RelativeLayout>

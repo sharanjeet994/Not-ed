@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="80dp"
+        android:background="@drawable/delete_indicator"
+        android:layout_height="8dp"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete the Note?"
+        android:fontFamily="@font/txtbold"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+
+    <TextView
+        android:id="@+id/noRemove"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="No"
+        android:fontFamily="@font/txtbold"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/dialogue_no"/>
+
+    <TextView
+        android:id="@+id/yesRemove"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:text="Yes"
+        android:fontFamily="@font/txtbold"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/dialogue_yes"/>
+
+    </LinearLayout>
+</LinearLayout>
