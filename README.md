@@ -20,3 +20,10 @@ Technologies Used :
 - Live Data
 - Room Persistence Library - for Database Management using SQL
 - Material Design
+
+
+Memory Optimization removing excess background resources like fragments and graphics
+
+Before
+![image]()
+
