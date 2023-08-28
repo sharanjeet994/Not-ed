@@ -25,5 +25,5 @@ Technologies Used :
 Memory Optimization removing excess background resources like fragments and graphics
 
 Before
-![image]()
+![image](https://github.com/sharanjeet994/Not-ed/blob/master/image.png?raw=true)
 
